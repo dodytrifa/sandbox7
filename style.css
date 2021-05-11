@@ -1,11 +1,10 @@
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  
   font-size: 1.3rem;
 }
 
@@ -25,7 +24,6 @@ h1 {
 .btn {
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase; 
   color: #23424A;
   font-weight: 900;
   background-color: #38CFD9;
@@ -50,7 +48,6 @@ h1 {
 }
 
 .col {
-  /* these are now flex items */
   width: 100%;
 }
 
@@ -60,7 +57,7 @@ h1 {
 
 
 header {
-  background: #136c72;
+  background: #ACC7DD;
   padding: .5em 0;
 }
 
@@ -80,14 +77,9 @@ header {
   margin-left: 2em;
 }
 
-.nav__item--push-right {
-  margin-left: auto;
-}
-
 .nav__link {
   color: #fff;
   text-decoration: none;
-  text-transform: uppercase;;
 }
 
 .nav__link--button {
@@ -97,14 +89,9 @@ header {
   border-radius: 10em;
 }
 
-.nav__link:hover {
-  opacity: .75;
-}
-
 .nav {
   display: flex;
-  /* justify-content: space-between; */
-  border: solid 2px red;
+  align-items: center;
 }
 
 .hero {
@@ -134,3 +121,10 @@ header {
   width: 62%;
 }
 
+footer {
+  padding: 1em 1em;
+}
+
+.hero-img {
+  max-height: 300px;
+}
