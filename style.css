@@ -55,7 +55,6 @@ h1 {
   margin-left: 30px;
 }
 
-
 header {
   background: #ACC7DD;
   padding: .5em 0;
@@ -127,7 +126,9 @@ footer {
 }
 
 .hero-img {
+  background: rgba(0,0,0,0.7)url(images/gb6.jpg);
   max-height: 300px;
+  background-blend-mode: darken;
 }
 
 .gallery {
@@ -144,9 +145,9 @@ footer {
   width: 50%;
 }
 
-.cell-1 {
+/* .cell-1 {
   flex-basis: 100%;
-}
+} */
 
 @media (max-width: 600px) {
   .container { 
@@ -174,9 +175,18 @@ footer {
 
 .gallery-img-big {
   padding: 1em;
-
-  max-height: 600px;
+  height: 600px;
   border-radius: 40px;
 }
 
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
 
+.hero-text {
+  font-size: 1.5rem;
+}
