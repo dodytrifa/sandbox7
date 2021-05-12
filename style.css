@@ -16,10 +16,6 @@ h1 {
   margin-top: 0;
 }
 
-.section-title {
-  color: #87629A;
-}
-
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -93,11 +89,6 @@ header {
   align-items: center;
 }
 
-.hero {
-  padding: 100px 0;
-  background-color: #23424A;
-  color: #FFF;
-}
 
 .hero__text { 
   width: 62%;
@@ -114,10 +105,6 @@ header {
 
 .main {
   margin-top: 3em;
-}
-
-.primary-content {
-  width: 62%;
 }
 
 footer {
@@ -176,6 +163,16 @@ footer {
   padding: 1em;
   height: 600px;
   border-radius: 40px;
+}
+
+.faq {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #BDD2E4;
+  border-radius: 20px;
+  padding: 1.5em;
+  display: flex;
 }
 
 .footer__list {
